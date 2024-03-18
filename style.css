@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-image: url("../img/Arman.png");
+    background-size: contain;
+    background-color: #bcb380;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-position: center center;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px #bcb380;
+    border-radius: 8px;
+}
+
+.homeImg{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/Arman2.jpg");
+    background-position: center;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home{
+    color: #ffffff;
+    text-align: center;
+  
+}
+.homeH1{
+    font-size: 40px;
+    padding: 300px 0 10px 0;
+}
+.homeP{
+    font-size: 20px;
+    padding: 25px;
+}
+.homeColor{
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+#flex-div{
+    width:100%;
+    height:auto;
+    font-size:65px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    color:#ffffff;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+}
+.mark{
+    font-size: 20px;
+    text-align: center;
+}
+#flex-div>div{
+    margin:10px;
+}
+.nshan{
+    animation-name: nshansharj;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes nshansharj{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.hraver{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 50px;
+}
+.hraver h2{
+    padding: 20px;
+    font-weight: 200;
+}
+.sireli{
+    width: 50%;
+    margin: auto;
+}
+.Arman,
+.knunqOr{
+    color: #bcb380;
+    font-size: 40px;
+    font-family: "Vrdznagir";
+}
+.contanier{
+    position: relative;
+    padding: 50px;
+
+    border-left: 2px solid #bcb380;
+}
+.firstContanier{
+    border-left: none;
+}
+strong{
+    font-size: 25px;
+    margin: 65px;
+    color: #bcb380;
+}
+.mkrt,
+.knunqLeft{
+    position: absolute;
+    left: -44px;
+    font-size: 48px;
+    color: #bcb380;
+    top: 100px;
+    padding: 20px;
+}
+.knunqLeft{
+     background-color: white; 
+}
+.programH1{
+    padding: 20px;
+    color:black;
+}
+.programP{
+    padding: 5px 30px;
+}
+.programText{
+    text-align: center;
+    font-size: 40px;
+    padding: 0px 10px 70px 10px;
+}
+.programAll
+{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.program{
+    width: 50%;
+    margin: auto;
+}
+.mijocarum{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+.texanq{
+    padding: 15px;
+ }
+ iframe{
+     width: 520px;
+}
+.vayry{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+}
+.vayry>img{
+    width: 500px;
+    
+    height: 320px;
+    margin: 58px 0 30px 0;
+}
+.map{
+    background-color: white;
+    padding: 50px;
+}
+.ekexecuTexanq{
+    padding: 15px;
+}
+.ekexeci{
+    width: 100%;
+
+    height: 1000px;
+    text-align: center;
+}
+.ekexeci>img{
+    width: 500px;
+    
+    height: 320px;
+    margin: 58px 0 30px 0;
+}
+.ekexecuTexanq,
+.texanq{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.patasxanH1{
+    width: 40%;
+    margin: auto;
+}
+
+.question{
+    background-color: #ffffff;
+}
+.time{
+    color: #bcb380;
+}
+.pataxanner{
+    width: 40%;
+    margin: auto;
+    color: rgb(160, 160, 160);
+}
+form input,
+form label,
+.time{
+    margin: 17px 10px;
+}
+input[type="submit"]{
+    width: 400px;
+    height: 50px;
+    border: 3px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    color: #bcb380;
+    border: 2px solid #bcb380;
+    background-color: #ffffff;
+}
+.qanak{
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 50px;
+    font-size: 20px;
+}
+footer h1{
+    font-family: "Vrdznagir";
+    color: #bcb380;
+}
+.baby{
+    font-size: 35px;
+    text-align: center;
+    color: #bcb380;
+    animation-name: smail;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+@keyframes smail {
+    from{
+        scale: 1.1;
+    }
+    to{
+        scale: 1.3;
+    }
+}
+@font-face{
+    font-family: "Vrdznagir";
+    src: url(../fonts/Vrdznagir.otf) format("opentype");
+}
+@media only screen and (max-width:600px){
+    #flex-div>div{
+        margin: 5px;
+    }
+    #flex-div{
+        font-size: 30px;
+    }
+    .homeH1{
+        font-size: 25px;
+        padding: 200px 0 5px 0;
+    }
+    .homeP{
+        font-size: 15PX;
+    }
+    .hraver h2 {
+        padding: 10px;
+        font-size: 25px;
+    }
+    .sireli{
+        width: 100%;
+    }
+    .Arman,
+    .knunqOr{
+    font-size: 25px;
+    }
+    .programText{
+        font-size: 30px;
+    }
+    strong{
+        font-size: 15px;
+        margin: 30px;
+    }
+    .mkrt, .knunqLeft{
+        font-size: 20px;
+        top: 30px;
+        left: -33px;
+    }
+    .programAll{
+        height: 550px;
+    }
+    .program{
+        width: 100%;
+        
+    }
+    .contanier{
+        padding: 10px;
+    }
+    .programP{
+        padding: 2px 10px;
+    }
+    .ekexeci>img{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .ekexecuTexanq, .texanq {
+        flex-direction: column;
+    }
+    iframe{
+        width: 100%;
+    }
+    .texanq{
+        padding: 0px;
+    }
+    .map{
+        padding: 0;
+    }
+    .ekexecuTexanq {
+        padding: 0px;
+    }
+    .patasxanH1{
+        width: 100%;
+        margin: 0;
+        font-size: 25px;
+    }
+    .programH1{
+        
+        font-size: 25px;
+    }
+    .pataxanner{
+        width: 100%;
+        margin: 0;
+    }
+    label[for="qanak"]{
+        color: black;
+    }
+    input[type="submit"]{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .vayry>img{
+        width: 100%;
+    }
+}
